@@ -24,10 +24,10 @@
         <a href="index.php" class="logo"><img src="img/logo2.jpg"></img></a>
 
         <nav class="navbar">
-            <a class="active"  href="index.php">trang chủ</a>
+            <a class="active" href="index.php">trang chủ</a>
             <a href="dishes.php">nổi bật</a>
             <a href="menu.php">sản phẩm</a>
-            <a href="review.php">đánh giá </a>
+            <a href="review.php">đánh giá</a>
             <a href="order.php">đặt hàng</a>
         </nav>
     
@@ -48,58 +48,116 @@
     <i class="fas fa-times" id="close"></i>
 </form>
 
-
-
-
 <div class="container">
 
-    <section class="home" id="home">
+    <section class="dishes" id="dishes">
 
-        <div class="swiper home-slider">
+        <h3 class="sub-heading" style="margin-top: 100px;"> our dishes </h3>
+        <h1 class="heading">Nổi bật </h1>
     
-            <div class="swiper-wrapper">
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>ESTONIA 190 GRAND</h3>
-                        <p>Có chiều dài 6'3″ hay 190 cm và do đó cung cấp đủ chiều dài dây
-                             và diện tích bề mặt thùng đàn cho các nhạc sĩ chuyên nghiệp làm việc cùng.</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano3.jpg" alt="">
-                      </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>HẠ NẮP PHÍM THỦY LỰC</h3>
-                        <p>Chống Sập Nắp Phím Đàn Piano - Thiết Bị Đóng Chậm Nắp Phím Đàn</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano4.jpg" alt="">
-                      </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>Máy Metronome Am-707</h3>
-                        <p>Phụ Kiện Đàn Piano Cơ Nhịp Điệu</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano5.jpg" alt="">
+        <div class="box-container">
 
-                      </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb.jpg" alt="">
+                <h3>Yamaha W102 </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
                 </div>
-    
+                <h5 >83000000₫</h5>
+                <p><span>79000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
             </div>
-    
-            <div class="swiper-pagination"></div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb1.jpg" alt="">
+                <h3>Yamaha U1H</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5 >200000000₫</h5>
+                <p><span>185000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb2.jpg" alt="">
+                <h3>Model K-52</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5 >1200000000₫</h5>
+                <p><span>990000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb3.jpg" alt="">
+                <h3>Model JM600BS</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5 >97000000₫</h5>
+                <p><span>93500000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb4.jpg" alt="">
+                <h3>Roland RP-302</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5 >27000000₫</h5>
+                <p><span>24500000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/pianonb5.jpg" alt="">
+                <h3>Piano K126-AD</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h5 >12000000₫</h5>
+                <p><span>10000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
     
         </div>
     

@@ -53,61 +53,51 @@
 
 <div class="container">
 
-    <section class="home" id="home">
+    <section class="order" id="order">
 
-        <div class="swiper home-slider">
+        <h3 class="sub-heading" style="margin-top: 100px;"> order now </h3>
+        <h1 class="heading">Miễn phí hoặc nhanh </h1>
     
-            <div class="swiper-wrapper">
+        <form action="">
     
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>ESTONIA 190 GRAND</h3>
-                        <p>Có chiều dài 6'3″ hay 190 cm và do đó cung cấp đủ chiều dài dây
-                             và diện tích bề mặt thùng đàn cho các nhạc sĩ chuyên nghiệp làm việc cùng.</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano3.jpg" alt="">
-                      </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Họ và tên</span>
+                    <input type="text" placeholder="enter your name">
                 </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>HẠ NẮP PHÍM THỦY LỰC</h3>
-                        <p>Chống Sập Nắp Phím Đàn Piano - Thiết Bị Đóng Chậm Nắp Phím Đàn</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano4.jpg" alt="">
-                      </div>
+                <div class="input">
+                    <span>Số điện thoại</span>
+                    <input type="number" placeholder="enter your number">
                 </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>Máy Metronome Am-707</h3>
-                        <p>Phụ Kiện Đàn Piano Cơ Nhịp Điệu</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano5.jpg" alt="">
-
-                      </div>
+            </div>      
+            <div class="inputBox">
+                <div class="input">
+                    <span>Địa chỉ </span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
                 </div>
-    
+                <div class="input">
+                    <span>Lời nhắc</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
             </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Phương thức thanh toán</span>
+                    <select id="thanhtoan"style="border: 1px solid black;width:425px;height: 50px;border-radius:5px;background-color:#eeeeee">
+                        <option value="Thanh toán khi nhận hàng">Thanh toán khi nhận hàng</option>
+                        <option value="Thanh toán bằng thẻ ATM">Thanh toán bằng thẻ ATM</option>
+                    </select>
+                </div>
+                
+            </div>  
     
-            <div class="swiper-pagination"></div>
+            <button onclick="" style="margin-top: 20px;"class="btn">Order Now</button>
     
-        </div>
+        </form>
     
     </section>
 
 </div>
-
-
 
 <div class="container">
     <section class="cart" id="cart">

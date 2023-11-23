@@ -21,21 +21,22 @@
 
     <section class="flex">
 
-        <a href="index.php" class="logo"><img src="img/logo2.jpg"></img></a>
+        <a href="index.php" class="logo"><img src="images/vku.png"></img></a>
 
         <nav class="navbar">
             <a class="active"  href="index.php">trang chủ</a>
             <a href="dishes.php">nổi bật</a>
+            <a href="about.php">chi tiết</a>
             <a href="menu.php">sản phẩm</a>
             <a href="review.php">đánh giá </a>
             <a href="order.php">đặt hàng</a>
         </nav>
     
         <div class="icons">
-            <a><i class="fas fa-bars" id="menu-bars"></i></a>
             <a href="login.php"><i class="fa-solid fa-user" id="login-icon"></i></a>
+            <a><i class="fas fa-bars" id="menu-bars"></i></a>
             <a><i class="fas fa-search" id="search-icon"></i></a>
-            <a><i class="fas fa-shopping-cart"></i></a><p style="margin-left:160px ;"><span class="">0</span><sup>đ</sup></p>
+            <a><i class="fas fa-shopping-cart"></i></a><p style="margin-left:160px ;"><span class="">0</span><sup>$</sup></p>
         </div>
         
     </section>
@@ -51,63 +52,47 @@
 
 
 
+
+
 <div class="container">
 
-    <section class="home" id="home">
+    <section class="about" id="about">
 
-        <div class="swiper home-slider">
+        <h3 class="sub-heading" style="margin-top: 100px;"> about us </h3>
+        <h1 class="heading"> Tại sao chọn chúng tôi? </h1>
     
-            <div class="swiper-wrapper">
+        <div class="row">
     
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>ESTONIA 190 GRAND</h3>
-                        <p>Có chiều dài 6'3″ hay 190 cm và do đó cung cấp đủ chiều dài dây
-                             và diện tích bề mặt thùng đàn cho các nhạc sĩ chuyên nghiệp làm việc cùng.</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano3.jpg" alt="">
-                      </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>HẠ NẮP PHÍM THỦY LỰC</h3>
-                        <p>Chống Sập Nắp Phím Đàn Piano - Thiết Bị Đóng Chậm Nắp Phím Đàn</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano4.jpg" alt="">
-                      </div>
-                </div>
-    
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>HHH</span>
-                        <h3>Máy Metronome Am-707</h3>
-                        <p>Phụ Kiện Đàn Piano Cơ Nhịp Điệu</p>
-                        <a href="#" class="btn">order now</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="img/piano5.jpg" alt="">
-
-                      </div>
-                </div>
-    
+            <div class="image">
+                <img src="images/aovietnamdo.jpg" alt="">
             </div>
     
-            <div class="swiper-pagination"></div>
+            <div class="content">
+                <h3>Mẫu áo hot nhất hiện tại</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
     
         </div>
     
     </section>
 
 </div>
-
-
 
 <div class="container">
     <section class="cart" id="cart">
@@ -119,6 +104,7 @@
                     <tr>
                         <th>Sản phẩm</th>
                         <th>Giá</th>
+                        <th>Size</th>
                         <th>Số lượng</th>
                         <th>Chọn</th>
                     </tr>
@@ -142,7 +128,7 @@
                 </tbody>
             </table>
             <div stylec="text-align:right;" class="price-total">
-                <p style="font-weight: bold;">Tổng tiền :<span>0</span><sup>đ</sup></p>
+                <p style="font-weight: bold;">Tổng tiền :<span>0</span><sup>$</sup></p>
             </div>
             <a href="order.html">Thanh Toán</a>
         </form>
